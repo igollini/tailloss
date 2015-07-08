@@ -1,0 +1,11 @@
+Package: tailloss
+Title: Estimate the Probability in the Upper Tail of the Aggregate Loss Distribution
+Description: Set of tools to estimate the probability in the upper tail of the aggregate loss distribution using different methods: Panjer recursion, Monte Carlo simulations, Markov bound, Cantelli bound, Moment bound, and Chernoff bound.
+Version: 1.0
+Authors@R: c(person(given = "Isabella", family = "Gollini", role = c("aut","cre"), email = "igollini.stats@gmail.com"), person("Jonathan", "Rougier", role = "ctb"))
+Depends: 
+    R (>= 3.0.2),
+    MASS, graphics, stats
+License: GPL-2 | GPL-3
+LazyData: true
+URL: http://github.com/igollini/tailloss
